@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Roi you can do it!'),
+      home: const MyHomePage(title: 'Roi did you do it?!'),
     );
   }
 }
@@ -85,6 +85,7 @@ class _MyHomePageState extends State<MyHomePage> {
         // Here we take the value from the MyHomePage object that was created by
         // the App.build method, and use it to set our appbar title.
         title: Text(widget.title),
+        centerTitle: true,
       ),
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
@@ -106,7 +107,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Text(
-              'You have pushed the button this many times:',
+              'Want more money? How much? I dont know...',
             ),
             Text(
               '$_counter',
